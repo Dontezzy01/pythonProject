@@ -1,0 +1,8 @@
+Secret_num = 5
+
+while True:
+    guess = int(input("Guess a number from 1 to 10: "))
+
+    if guess == Secret_num:
+        print("You guessed the number")
+        break
