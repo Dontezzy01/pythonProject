@@ -1,4 +1,4 @@
-Secret_num = 5
+Secret_num = 9
 
 while True:
     guess = int(input("Guess a number from 1 to 10: "))
