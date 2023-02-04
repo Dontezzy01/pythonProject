@@ -7,6 +7,6 @@ Amount = float(principal+interest)
 print("Interest= ",interest)
 print("Amount= ",Amount)
 for i in range(1,10):
-    payup = Amount + principal
-    print("The amount in the next {} year(s) is {}".format(i,payup))
+    Amount = Amount + (principal + 1000)
+    print("The amount in the next {} year(s) is {}".format(i,Amount))
 print("The calculation was done successfully")
