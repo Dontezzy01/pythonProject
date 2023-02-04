@@ -6,3 +6,5 @@ while True:
     if guess == Secret_num:
         print("You guessed the number")
         break
+    else:
+        print("You entered a wrong input")
