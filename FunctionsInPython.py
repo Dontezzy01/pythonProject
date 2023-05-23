@@ -67,4 +67,19 @@ def add(a, *b):
         print(c)
 add(12,10,19,20)
 
-def
+#Keywords variable length argument(Kwargs)
+def person(name,**data):
+    print(name)
+    print(data)
+
+
+person("Dontezzy", age = 22, city = "Ibadan", phone = 903441384)
+#or
+#To print in a seperate way
+def person(name,**data):
+    print(name)
+    for i,j in data.items():
+        print(i,j)
+
+
+person("Dontezzy", age = 22, city = "Ibadan", phone = 903441384)
