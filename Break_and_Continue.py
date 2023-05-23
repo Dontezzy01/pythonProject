@@ -4,6 +4,5 @@ for num in Digits:
     if num == number:
         print("Number exist")
         break
-    else:
-        print("The number does not exist")
-        break
+else:
+    print("The number does not exist")

@@ -1,14 +1,14 @@
-#fruits=["Banana","Pawpaw","Apple","Pineapple","Orange","Carrot"]
-#for fruit in fruits:
-#    print("This fruit is ", fruit)
-#print()
-#for letters in "Python":
-#    print("current letter is: ", letters)
+fruits=["Banana","Pawpaw","Apple","Pineapple","Orange","Carrot"]
+for fruit in fruits:
+    print("This fruit is ", fruit)
+print()
+for letters in "Python":
+    print("current letter is: ", letters)
 
-#fruits=["Banana","Pawpaw","Apple","Pineapple","Orange","Carrot"]
-##for index in range(len(fruits)):
- #   print("fruits: ",fruits[index])
-#print()
+fruits=["Banana","Pawpaw","Apple","Pineapple","Orange","Carrot"]
+for index in range(len(fruits)):
+    print("fruits: ",fruits[index])
+print()
 
 
 number=[17,37,93,37,89,79,17,3,7,77]

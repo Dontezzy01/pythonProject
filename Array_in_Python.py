@@ -1,5 +1,5 @@
 from array import*
-vals=array("i", (23,24,9,12,-82,4,89,7,12,34,44))
+vals=array("i", [23,24,9,12,-82,4,89,7,12,34,44])
 #print(vals.buffer_info())
 #print(vals.typecode)
 #vals.reverse()
@@ -17,9 +17,9 @@ vals=array("i", (23,24,9,12,-82,4,89,7,12,34,44))
 
 #or
 #to print another in an Array
-#NewArray=array(vals.typecode,(afor a in vals))
+NewArray=array(vals.typecode,(a for a in vals))
 #to square up
-NewArray=array(vals.typecode,(a*a for a in vals))
+#NewArray=array(vals.typecode,(a*a for a in vals))
 for e in NewArray:
     print(e)
 

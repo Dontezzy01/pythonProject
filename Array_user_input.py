@@ -13,4 +13,5 @@ for e in Don:
         print(k)
         break
     k+=1
+    #or
 print(Don.index(val))

@@ -1,5 +1,5 @@
 #How to print  fabonacci number
-nterms=int(input("How maany terms: "))
+nterms=int(input("How many terms: "))
 n1=0
 n2=1
 count=0
@@ -9,7 +9,7 @@ elif nterms==1:
     print("Fabonacci sequences is upto",nterms,":" )
     print(n1)
 else:
-    print("fabonacci sequemces: ")
+    print("fabonacci sequences: ")
     while count< nterms:
         print(n1)
         nth=n1+n2

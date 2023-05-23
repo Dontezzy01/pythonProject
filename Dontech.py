@@ -5,4 +5,4 @@ money = float(money)
 interest_rate = float(interest_rate) * .01
 for i in range(1,10):
     money = money + (money * interest_rate)
-    print("The invested funds after {:.1f}yrs will be {:.2f}".format(i,money))
+    print("The invested funds after {}yrs will be {:.2f}".format(i,money))

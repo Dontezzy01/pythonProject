@@ -13,4 +13,4 @@ elif (Secondnum >= Firstnum) and (Secondnum >= Thirdnum):
 else:
     largest = Thirdnum
 print("The largest number is ", largest)
-print("Thamk you for entering digits, Bye.")
+print("Thank you for entering digits, Bye.")

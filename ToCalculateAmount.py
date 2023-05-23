@@ -9,4 +9,4 @@ print("Amount= ",Amount)
 for i in range(1,10):
     Amount = Amount + (principal + 1000)
     print("The amount in the next {} year(s) is {}".format(i,Amount))
-print("The calculation was done successfully")
+print("The calculation done successfully")
