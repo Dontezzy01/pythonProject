@@ -83,3 +83,97 @@ def person(name,**data):
 
 
 person("Dontezzy", age = 22, city = "Ibadan", phone = 903441384)
+
+#def input_vals(name,**Age):
+#    name= input(int("Enter your fullname"))
+#    Age = input(int("How old are you"))
+#    greetings = print("Best of luck, thanks")
+#    print(name)
+#    print(Age)
+#    print(greetings)
+#input_vals(name)
+
+#Scope of variable
+#-Local variable
+#-Global variable
+
+#-Local variable e.g.
+def variable():
+    x = 12
+    print(x)
+variable()
+
+#-Global variable e.g.
+x = 40
+def values():
+    #global x
+    x = 12
+    #globals()
+    c = globals()['x']
+    globals()['x'] = 20
+    print("inside variable", x)
+values()
+
+print("outside variable: ", x)
+
+#Passing list to a function e.g.
+def count(list):
+    even = 0
+    odd = 0
+    for i in list:
+        if i&2==0:
+            even+=1
+        else:
+            odd+=1
+    return even, odd
+
+list= [12,13,19,1,20,22,14,17,8,9,4,2,7]
+even, odd= count(list)
+#count(list)
+print("Even= {} and Odd= {}".format(even,odd))
+
+# Another example
+
+#Take 10 name from from the user, count and display the number of user who has length more than five letters
+
+def user(names):
+    count = 0
+    for name in names:
+        if len(name) > 5:
+            count += 1
+    return count
+
+names =["Aishat", "Quadri", "Ola", "Balikis", "Dolapo", "kareemot", "Sulaykoh", "Tayo", "Enny", "Ayomide"]
+count = user(names)
+print("Number of names with more than five letters: ",count)
+
+#fabonacci sequence
+def fab(n):
+    a = 0
+    b = 1
+    print(a)
+    print(b)
+    if n < 0:
+        print("You enter a wrong number")
+    elif n == 1:
+        print(a)
+    else:
+        for i in range(2,n):
+            c = a + b
+            a = b
+            b = c
+            print(c)
+fab(10)
+
+print()
+
+# Factorial number
+def fact(x):
+    factorial = 1
+    for i in range(1,x+1):
+        factorial = factorial * i
+    return factorial
+x=4
+result = fact(x)
+print(result)
+
