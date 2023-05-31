@@ -24,7 +24,7 @@ def don_interest(principal,time, rate):
     I = I*100
     return I
 result = don_interest(900,12,34)
-print(result)
+print("interest= ", result)
 
 def update(x):
     x = 8
@@ -154,7 +154,7 @@ def fab(n):
     print(a)
     print(b)
     if n < 0:
-        print("You enter a wrong number")
+        print("You entered a wrong number")
     elif n == 1:
         print(a)
     else:
